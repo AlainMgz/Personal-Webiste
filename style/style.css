@@ -1,0 +1,59 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.btn {
+  display: inline-block;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+  border-radius: 20px;
+  width: 320px;
+  height: 100px;
+  background: rgba(236, 240, 249, 0.2);
+  margin-top: 2.5%;
+  margin-left: 12.5%;
+  z-index: 1;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  filter: none;
+  cursor: pointer;
+  border-radius: 1px;
+}
+
+.text {
+  z-index: 2;
+  display: inline-block;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 20px;
+  width: 320px;
+  height: 100px;
+  text-align: center;
+  margin-top: 12%;
+}
+
+.main_hidden {
+  margin-top: -100000px;
+}
+
+.main {
+  margin-left: 28.5%;
+  margin-top: 10%;
+}
+
+.input_text {
+  width: 60%;
+  height: 70px;
+  font-size: 25px;
+  background: rgba(1, 6, 17, 0.5);
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+}
